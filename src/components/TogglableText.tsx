@@ -10,6 +10,6 @@ interface Props {
 
 export default class TogglableText extends React.Component<Props> {
   public render() {
-    return <div>Hoi</div>;
+    return <div className="toggleable-text">Hoi</div>;
   }
 };
