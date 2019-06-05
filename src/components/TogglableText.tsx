@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './TogglableText.scss';
+
 interface Props {
   toggled: boolean;
   text: string;
@@ -8,6 +10,6 @@ interface Props {
 
 export default class TogglableText extends React.Component<Props> {
   public render() {
-    return "Hoi";
+    return <div>Hoi</div>;
   }
 };
